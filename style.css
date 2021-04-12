@@ -1,0 +1,88 @@
+
+input[type="text"]{
+    height: 50px;
+    width: 600px;
+    margin: 20px;
+    padding: 3.5px;
+    border-radius: 100px;
+    border: 2px solid whitesmoke;
+}
+
+input[type="text"]:hover{
+    height: 50px;
+    width: 600px;
+    margin: 20px;
+    padding: 0.5px;
+    border-radius: 100px;
+    border: 5px solid whitesmoke;
+
+}
+input.ad_text{
+    height: 30px;
+    width: 700px;
+    margin: 20px;
+    padding: 3.5px;
+    border-radius: 0px;
+    border: 2px solid gray;
+}
+
+input.ad_text:hover{
+    height: 30px;
+    width: 700px;
+    margin: 20px;
+    padding: 3.5px;
+    border-radius: 0px;
+    border: 2px solid dodgerblue;
+}
+
+button{
+    height: 35px;
+    width: 155px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+
+}
+
+button:hover{
+    height: 35px;
+    width: 155px;
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+}
+
+#bar{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#links{
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 85%;
+    transform: translate(0%, 0%);
+
+}
+
+#google{
+    margin: 0;
+    position: absolute;
+    top: -50%;
+    left: 28%;
+
+}
+#ad_sub{
+    background-color:dodgerblue ;
+    border:3px solid dodgerblue;
+    color: white;
+}
+
+#ad_sub:hover{
+    background-color:dodgerblue ;
+    border: 3px solid rgba(0, 189, 236, 0.911);
+    color: white;
+}
